@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.production.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+        <title>Contact Katie Ho</title>
+    </head>
+    <body>
+        <header class="page-header">
+                <img src="./img/KT logo_small.jpg" alt="logo" class="logo page-header-item" />
+                <nav role="menubar" class="navigation-list page-header-item"> 
+                    <ul>
+                        <li role="presentation">
+                            <a href="./index.html" role="menuitem">Home</a>
+                        </li>
+                        <li role="presentation">
+                             <a href="https://www.kthodesign.com" role="menuitem">Portfolio</a> 
+                        </li>
+                        <li role="presentation">
+                             <a href="./about.html" role="menuitem">About</a>
+                        </li>
+                        <li role="presentation">
+                               <a href="./contact.html" role="menuitem">Contact</a>
+                        </li>
+                        <li role="presentation">
+                               <a href="./work.html" role="menuitem">Work</a>
+                        </li>
+                    </ul>
+                </nav>
+        </header>
+<body>
+    <header>
+        <div class="contact-section">
+        <h1>Contact Me</h1>
+        <br>
+            <a href="kthodesign@gmail.com">Contact me</a>
+    </header>
+    <main class="form-section">
+        <h2>Send me a message!</h2>
+        <form action="/login-form-action" method="post" id="contact-form" role="form">
+
+            <label for="name">Your name</label>
+                <input type="text" id="name" required>
+                <br>
+            <div>
+            <label for="email" class="standard-label">Email: </label>
+                <input type="email" id="email" required>
+            </div>
+            <div>
+            <label for="tel" class="standard-label">Telephone: </label>
+                <input 
+                    type="tel" 
+                    pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+                    id="tel"
+                    required
+                />
+            </div>
+                    
+            <div>
+            <label for="msg" class="standard-label">Message: </label>
+                <textarea 
+                    required 
+                    maxlength="240"
+                    id="msg"
+                    cols="30"
+                    rows="10"
+                ></textarea>
+            </div>
+                <button class="primary-button">Submit</button>
+        </form>
+    </main>
+</div>
+    <footer class="footer">
+        <p>Find me on</p>
+        <div class="social-media">
+            <img src="./img/LinkedIn_logo_initials.png" alt="LinkedIn" />
+            <img src="./img/2048px-Instagram_icon.png" alt="Instagram" />
+            <img src="img/Email.svg.png" alt="Email" />
+        </div>
+        <a class="back-to-top-link" href="#">back to top!</a>
+    </footer>
+    <script src="./js/tota11y.min.js"></script>
+</body>
+      
+
