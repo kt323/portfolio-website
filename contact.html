@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./css/style.production.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+        ">
+        <link rel="stylesheet" type="text/css" href="./css/style.production.css">
         <title>Contact Katie Ho</title>
     </head>
     <body>
         <header class="page-header">
-                <img src="./img/KT logo_small.jpg" alt="logo" class="logo page-header-item" />
+            <img src="./img/KT%20logo_small.jpg" alt="Logo" class="logo page-header-item">
                 <nav role="menubar" class="navigation-list page-header-item"> 
                     <ul>
                         <li role="presentation">
@@ -33,16 +34,18 @@
                     </ul>
                 </nav>
         </header>
-<body>
+
     <header>
-        <div class="contact-section">
+        <div class="contact-section"></div>
         <h1>Contact Me</h1>
         <br>
             <a href="kthodesign@gmail.com">Contact me</a>
-    </header>
-    <main class="form-section">
+
+        <div class="form-section"></div>
         <h2>Send me a message!</h2>
-        <form action="/login-form-action" method="post" id="contact-form" role="form">
+        <div id="contact-form-container">
+            <form action="/login-form-action" method="post" id="contact-form"></form>
+        </div>
 
             <label for="name">Your name</label>
                 <input type="text" id="name" required>
@@ -52,13 +55,13 @@
                 <input type="email" id="email" required>
             </div>
             <div>
-            <label for="tel" class="standard-label">Telephone: </label>
+                <label for="tel" class="standard-label">Telephone: </label>
                 <input 
                     type="tel" 
                     pattern="\d{3}[\-]\d{3}[\-]\d{4}"
                     id="tel"
                     required
-                />
+                >
             </div>
                     
             <div>
@@ -72,15 +75,15 @@
                 ></textarea>
             </div>
                 <button class="primary-button">Submit</button>
-        </form>
-    </main>
-</div>
+    </header>
+   
+
     <footer class="footer">
         <p>Find me on</p>
         <div class="social-media">
-            <img src="./img/LinkedIn_logo_initials.png" alt="LinkedIn" />
-            <img src="./img/2048px-Instagram_icon.png" alt="Instagram" />
-            <img src="img/Email.svg.png" alt="Email" />
+            <img src="./img/LinkedIn_logo_initials.png" alt="LinkedIn"/>
+            <img src="./img/2048px-Instagram_icon.png" alt="Instagram"/>
+            <img src="img/Email.svg.png" alt="Email"/>
         </div>
         <a class="back-to-top-link" href="#">back to top!</a>
     </footer>
